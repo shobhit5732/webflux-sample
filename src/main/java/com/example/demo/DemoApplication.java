@@ -8,10 +8,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 @SpringBootApplication
 public class DemoApplication {
 
-	@Bean
-	WebClient client(){
-		return WebClient.create("http://localhost:8080");
-	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
