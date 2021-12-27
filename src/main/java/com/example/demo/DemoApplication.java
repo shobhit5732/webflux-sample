@@ -10,6 +10,8 @@ public class DemoApplication {
 
 
 	public static void main(String[] args) {
+
+		Thread.sleep("10000");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
